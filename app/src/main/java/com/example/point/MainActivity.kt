@@ -68,14 +68,14 @@ data class Multiplier(val text: String, val value: Int)
 @Composable
 fun EnhancedAnimatedSlotMachine() {
     val symbols = listOf(
-        Symbol("🍒", 10),
-        Symbol("🍋", 20),
-        Symbol("🔔", 30),
-        Symbol("🍉", 40),
-        Symbol("⭐", 50),
-        Symbol("7️⃣", 100),
-        Symbol("🍀", 200),
-        Symbol("福", 150) // Adding a traditional symbol
+        Symbol("🍒", 100),
+        Symbol("🍋", 200),
+        Symbol("🔔", 300),
+        Symbol("🍉", 400),
+        Symbol("⭐", 500),
+        Symbol("7️⃣", 1000),
+        Symbol("🍀", 2000),
+        Symbol("福", 1500) // Adding a traditional symbol
     )
 
     val multipliers = listOf(
